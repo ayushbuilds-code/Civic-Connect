@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test": "vitest run",
     "lint": "oxlint",
     "preview": "vite preview",
     "postinstall": "node -e \"const fs = require('fs'); if (fs.existsSync('.env.example') && !fs.existsSync('.env')) fs.copyFileSync('.env.example', '.env');\""
